@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: blue;
+    }
+    
+    .login page {
+        width: 360px;
+        padding: 10% 0 0;
+    }
+    
+    .form {
+        position: relative;
+        z-index: 1;
+        background: white;
+        max-width: 0 auto 100px;
+        margin: 0 auto 100px;
+        padding: 15px;
+        text-align: center;
+        margin-left: 200px;
+        margin-right: 200px;
+        margin-top: 30px;
+        margin-bottom: 70px;
+    }
+    
+    .form input {
+        font-family: "roboto", sans-serif;
+        outline: 1;
+        background: white;
+        width: 100%;
+        border: 2px solid black;
+        margin: 0 0 15px;
+        padding: 15px;
+        box-sizing: border-box;
+        font-size: 14px;
+        border-radius: 5px;
+    }
+    
+    .form button {
+        font-family: "roboto", sans-serif;
+        text-transform: uppercase;
+        outline: 0;
+        background: #4CAF50;
+        width: 100%;
+        padding: 15px;
+        color: #FFFFFF;
+        font-size: 14px;
+        cursor: pointer;
+    }
+    
+    .form button:hover,
+    .form button:active {
+        background: #43a047;
+        ;
+    }
+    
+    .form .message {
+        margin: 15px 0 0;
+        font-size: 12px;
+    }
+    
+    .form.message a {
+        color: #4CAF50;
+        text-decoration: none;
+    }
+    
+    .form .login form {
+        display: none;
+    }
+</style>
+
+<body>
+    <div id="errormessage">
+
+    </div>
+    <div class="login page">
+        <div class="form">
+            <p>
+                <h1>sign up</h1>
+
+            </p>
+
+
+            <input type="text" placeholder="name" id="name" />
+            <input type="text" id="gmail" placeholder="gmail" /><input type="text" id="password" placeholder="password" />
+            <input type="text" id="confirm-password" placeh "older="confirm password " />
+                <button onclick="validation() ">create</button>
+                <p class="message ">already register? <a href="|| ">login</a></p>
+                <p>i accept the <span style="color: red; ">term of use</span> and <span style="color: red; ">privacy policy</span></p>
+
+         
+        </div>
+    </div>
+    <script src="formvalidation.js "></script>
+</body>
+
+</html>
